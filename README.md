@@ -20,44 +20,19 @@ The objective of Week 1 is to create the initial ShellForge project structure an
 - Git repository setup
 - Linux development environment
 
-### Project Structure
+### Week 2 – Dynamic Input and Memory Management
 
-```text
-ShellForge/
-├── include/
-│   └── shell.h
-├── src/
-│   └── main.c
-├── Makefile
-├── README.md
-└── .gitignore
----
+### Objective
 
-# Week 2 – Dynamic Input and Memory Management
+The objective of Week 2 is to extend the ShellForge project developed in Week 1 by implementing dynamic command input and proper memory management.
 
-## Objective
-
-Week 2 extends the ShellForge project developed in Week 1 by implementing dynamic command input and memory management.
-
-## Features
+### Features
 
 - Dynamic command input
-- Dynamic memory allocation using `malloc()`
-- Dynamic buffer resizing using `realloc()`
-- Memory deallocation using `free()`
+- Dynamic memory allocation using malloc()
+- Dynamic buffer resizing using realloc()
+- Memory deallocation using free()
 - Separate input-handling module
-- Integration with the existing ShellForge REPL
-
-## Project Structure – Week 2
-
-```text
-ShellForge/
-├── include/
-│   ├── shell.h
-│   └── input.h
-├── src/
-│   ├── main.c
-│   └── input.c
-├── Makefile
-├── README.md
-└── .gitignore
+- Integration of dynamic input handling with the ShellForge REPL
+- Updated Makefile to compile multiple source files
+- Improved memory management and error handling
